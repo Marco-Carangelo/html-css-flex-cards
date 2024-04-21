@@ -13,6 +13,10 @@ body {
     font-optical-sizing: auto;
 }
 
+body a {
+    text-decoration: none;
+}
+
 .container {
     width: 70%;
     margin: 0 auto;
@@ -54,4 +58,35 @@ main .card-row .member-card {
     width: calc(100%/3 - 30px);
     margin: 30px 15px;
     box-shadow: 0px 0px 4px 1px #000000;
+    display: flex;
+}
+
+/* main .card-row .member-card .card-img {
+    display: inline-block;
+} */
+
+main .card-row .member-card .card-img img {
+    width: 100px;
+
+}
+
+main .card-row .member-card .card-info {
+    flex-grow: 1;
+    color: #ffffff;
+    padding: 15px;
+}
+
+main .card-row .member-card .card-info h3 {
+    text-transform: uppercase;
+}
+
+main .card-row .member-card .card-info .role {
+    margin: 6px 0;
+    font-size: .9375rem;
+}
+
+
+main .card-row .member-card .card-info a {
+    color: #4DCCF2;
+    background-color: aliceblue;
 }
