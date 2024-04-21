@@ -61,9 +61,7 @@ main .card-row .member-card {
     display: flex;
 }
 
-/* main .card-row .member-card .card-img {
-    display: inline-block;
-} */
+
 
 main .card-row .member-card .card-img img {
     width: 100px;
@@ -88,5 +86,5 @@ main .card-row .member-card .card-info .role {
 
 main .card-row .member-card .card-info a {
     color: #4DCCF2;
-    background-color: aliceblue;
+
 }
