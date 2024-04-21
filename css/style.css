@@ -32,3 +32,9 @@ header .title {
 h1 {
     color: #E53170;
 }
+
+/* MAIN */
+
+main .introduction {
+    margin: 20px 0;
+}
